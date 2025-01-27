@@ -1,0 +1,36 @@
+#about-us{
+    width: 100%;
+    max-width: 1280px;
+    height: 481px;
+    background-image: url("/assets/images/about-us-bg.png");
+    background-repeat: no-repeat;
+    padding-left: 55px;
+    padding-right: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.about-us-title{
+    margin-bottom: 40px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.about-us-text{
+    margin-bottom: 50px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.about-text-button{
+    font-size: 18px;
+    font-weight: 500;
+    color:white;
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    border: none;
+    padding: 12px 27px;
+}
