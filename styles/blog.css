@@ -1,6 +1,7 @@
 #blog{
     background-color: white;
     padding: 100px 55px;
+    margin-bottom: 100px;
 }
 
 .blog-list{
@@ -14,29 +15,7 @@
     width: 370px;
 }
 
-.blog-title{
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    margin-bottom: 50px;
-}
 
-.blog-title h1{
-    font-size: 36px;
-    font-weight: bold;
-    color:#262626;
-}
-
-.blog-title-more-news{
-    display: flex;
-    align-items:center;
-}
-
-.blog-title-more-news p{
-    color: var(--primary-color);
-    font-size: 16px;
-    font-weight: 500;
-}
 
 .blog-image-container{
     width: 370px;

@@ -19,3 +19,29 @@ h1,h2,h3,h4,h5,h6,p{
     width: 100%;
 }
 
+.section-title{
+    display: flex;
+    align-items: end;
+    gap: 15px;
+    margin-bottom: 50px;
+}
+
+.section-title h1{
+    font-size: 36px;
+    font-weight: bold;
+    color:#262626;
+}
+
+.section-title-more-news{
+    display: flex;
+    align-items:center;
+    gap: 5px;
+    transform: translateY(-9px);
+}
+
+.section-title-more-news p{
+   
+    color: var(--primary-color);
+    font-size: 16px;
+    font-weight: 500;
+}
