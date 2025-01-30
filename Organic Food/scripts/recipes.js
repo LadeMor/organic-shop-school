@@ -1,17 +1,17 @@
 const recipeList = [
     {
         label:"Breakfast",
-        coverImage:"/assets/images/recipes/recipe1.png",
+        coverImage:"assets/images/recipes/recipe1.png",
         title:"Banana Crunch Pancakes"
     },
     {
         label:"Salads",
-        coverImage:"/assets/images/recipes/recipe2.png",
+        coverImage:"assets/images/recipes/recipe2.png",
         title:"Minty Melon Salad"
     },
     {
         label:"Main Dishes",
-        coverImage:"/assets/images/recipes/recipe3.png",
+        coverImage:"assets/images/recipes/recipe3.png",
         title:"Mexican Casserole"
     },
 ]

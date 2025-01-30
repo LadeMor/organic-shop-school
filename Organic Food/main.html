@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/styles/header.css">
-    <link rel="stylesheet" href="/styles/main.css">
-    <link rel="stylesheet" href="/styles/slider.css">
-    <link rel="stylesheet" href="/styles/products.css">
-    <link rel="stylesheet" href="/styles/about-us.css">
-    <link rel="stylesheet" href="/styles/blog.css">
-    <link rel="stylesheet" href="/styles/recipes.css">
-    <link rel="stylesheet" href="/styles/footer.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/slider.css">
+    <link rel="stylesheet" href="styles/products.css">
+    <link rel="stylesheet" href="styles/about-us.css">
+    <link rel="stylesheet" href="styles/blog.css">
+    <link rel="stylesheet" href="styles/recipes.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/timer.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -21,7 +22,7 @@
         <header>
             <div class="header__logo_section">
                 <div class="header__logo">
-                    <img src="./assets/images/main_logo.png" alt="Logo"/>
+                    <img src="assets/images/main_logo.png" alt="Logo"/>
                 </div>
                 <div class="header__links">
                     <a href="#">Our Shop</a>
@@ -32,16 +33,16 @@
             </div>
             <div class="header__buttons_section">
                 <div class="header__icons">
-                    <img src="./assets/icons/search.png" alt="Search"/>
+                    <img src="assets/icons/search.png" alt="Search"/>
                     <span class="header__icons-vertical-line"></span>
-                    <img src="./assets/icons/bag.png" alt="Bag"/>
+                    <img src="assets/icons/bag.png" alt="Bag"/>
                 </div>
                 <button class="header__button">Login</button>
             </div>
         </header>
         <section id="main-slider">
             <div class="main-slider__container">
-                <img src="/assets/images/slider/slide1.png"/>
+                <img src="assets/images/slider/slide1.png"/>
                 <div class="main-slider__gradient"></div>
                 <div class="main-slider__text-content">
                     <h1 class="main-slider__header">Organic Food Store</h1>
@@ -49,14 +50,14 @@
                     <button class="main-button">Shop now</button>
                 </div>
                 <div class="main-slider__handle">
-                    <img src="./assets/icons/arrow-ios-back.svg" class="main-slider__handle-arrow"/>
+                    <img src="assets/icons/arrow-ios-back.svg" class="main-slider__handle-arrow"/>
                     <div class="main-slider__handle-dots">
                         <div class="main-slider__handle-dot active-dot"></div>
                         <div class="main-slider__handle-dot"></div>
                         <div class="main-slider__handle-dot"></div>
                         <div class="main-slider__handle-dot"></div>
                     </div>
-                    <img src="./assets/icons/arrow-ios-forward.svg" class="main-slider__handle-arrow"/>
+                    <img src="assets/icons/arrow-ios-forward.svg" class="main-slider__handle-arrow"/>
                 </div>
             </div>
         </section>
@@ -66,7 +67,7 @@
             <div class="shop-products-button">
                 <button>
                     <p>Shop all products</p>
-                    <img src="/assets/icons/white_arrow_right.png" alt="White arrow">
+                    <img src="assets/icons/white_arrow_right.png" alt="White arrow">
                 </button>
             </div>
         </section>
@@ -85,7 +86,7 @@
                 <h1>BLOG</h1>
                 <span class="section-title-more-news">
                     <p>more news</p>
-                    <img src="/assets/icons/primary-arrow-right.png" alt="Arrow right">
+                    <img src="assets/icons/primary-arrow-right.png" alt="Arrow right">
                 </span>
             </div>
             <div class="blog-list">
@@ -96,10 +97,41 @@
                 <h1>RECIPES</h1>
                 <span class="section-title-more-news">
                     <p>view all</p>
-                    <img src="/assets/icons/primary-arrow-right.png" alt="Arrow right">
+                    <img src="assets/icons/primary-arrow-right.png" alt="Arrow right">
                 </span>
             </div>
             <div class="recipes-list"></div>
+        </section>
+        <section id="timer">
+            <h1 class="timer-title">09:23:06</h1>
+           <div class="timer-info">
+                <h3>Get you discound!</h3>
+                <button>Learn more</button>
+           </div>
+        </section>
+        <section id="calculator">
+            <div class="buttons-gender-selector">
+                <button>Man</button>
+                <button>Woman</button>
+            </div>
+            <div class="calories-input-group">
+                <div class="calories-input">
+                    <label for="age">Age</label>
+                    <input type="text" name="age">
+                </div>
+                <div class="calories-input">
+                    <label for="weight">Weight</label>
+                    <input type="text" name="weight">
+                </div>
+                <div class="calories-input">
+                    <label for="height">Height</label>
+                    <input type="text" name="height">
+                </div>
+            </div>
+            <div class="result-block">
+                <h2>Your calories per day:</h2>
+                <h2>1245</h2>
+            </div>
         </section>
         <footer>
             <div class="footer-block">
@@ -139,8 +171,8 @@
         </footer>
     </div>
 
-    <script src="/scripts/products.js"></script>
-    <script src="/scripts/blog.js"></script>
-    <script src="/scripts/recipes.js"></script>
+    <script src="scripts/products.js"></script>
+    <script src="scripts/blog.js"></script>
+    <script src="scripts/recipes.js"></script>
 </body>
 </html>

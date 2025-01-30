@@ -1,20 +1,20 @@
 const blogList = [
     {
-        coverImage: "/assets/images/blog/blog1.png",
+        coverImage: "assets/images/blog/blog1.png",
         date: "2024-9-8",
         views: 585,
         title: "5 reasons to love organic",
         textContent: "There are many reasons to love organic food and farming. We take a look at why organic is good for you and your family."
     },
     {
-        coverImage: "/assets/images/blog/blog2.png",
+        coverImage: "assets/images/blog/blog2.png",
         date: "2024-6-6",
         views: 820,
         title: "You’re the Apple for My Pie",
         textContent: "This year, we plan to bake a home-made apple pie, but we need the main ingredient: apples, of course!"
     },
     {
-        coverImage: "/assets/images/blog/blog3.png",
+        coverImage: "assets/images/blog/blog3.png",
         date: "2024-9-4",
         views: 923,
         title: "Best Christmas food gifts for 2024",
@@ -61,7 +61,7 @@ blogList.forEach(product => {
                                 <div class="blog-image-container">
                                     <img src="${product.coverImage}" alt="Blog thumbnail">
                                     <div class="blog-image-arrow-wrapper">
-                                        <img src="/assets/icons/white_arrow_right.png" alt="Arrow">
+                                        <img src="assets/icons/white_arrow_right.png" alt="Arrow">
                                     </div>
                                 </div>
                                 <div class="blog-item-info">
@@ -69,7 +69,7 @@ blogList.forEach(product => {
                                      ${selectMonthName(new Date(product.date).getMonth())} 
                                      ${new Date(product.date).getFullYear()}</p>
                                     <span class="dot"></span>
-                                    <img src="/assets/icons/eye.png" alt="Eye">
+                                    <img src="assets/icons/eye.png" alt="Eye">
                                     <p>${product.views}</p>
                                 </div>
                                 <div class="blog-item-content">

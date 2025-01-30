@@ -4,28 +4,28 @@ const productList = [
         productName:"Gran Reserva Vinegar",
         volume: 200,
         price: 32.51,
-        productImage: "/assets/images/product-list/product1.png"
+        productImage: "assets/images/product-list/product1.png"
     },
     {
         seller: "Arvum",
         productName:"Gran Reserva Vinegar",
         volume: 200,
         price: 32.51,
-        productImage: "/assets/images/product-list/product2.png"
+        productImage: "assets/images/product-list/product2.png"
     },
     {
         seller: "Arvum",
         productName:"Gran Reserva Vinegar",
         volume: 200,
         price: 32.51,
-        productImage: "/assets/images/product-list/product3.png"
+        productImage: "assets/images/product-list/product3.png"
     },
     {
         seller: "Arvum",
         productName:"Gran Reserva Vinegar",
         volume: 200,
         price: 32.51,
-        productImage: "/assets/images/product-list/product4.png"
+        productImage: "assets/images/product-list/product4.png"
     }
 ]
 
@@ -43,7 +43,7 @@ productList.forEach(product => {
                                 </p>
                                 <p class="product-item-price">${product.price} &euro;</p>
                                 <button class="product-item-button">
-                                    <img src="/assets/icons/bag-primary.png" alt="Bag"/>
+                                    <img src="assets/icons/bag-primary.png" alt="Bag"/>
                                     <p>Add to cart</p>
                                 </button>
                             `

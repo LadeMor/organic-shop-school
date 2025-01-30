@@ -2,7 +2,7 @@
     width: 100%;
     max-width: 1280px;
     height: 481px;
-    background-image: url("/assets/images/about-us-bg.png");
+    background-image: url("../assets/images/about-us-bg.png");
     background-repeat: no-repeat;
     padding-left: 55px;
     padding-right: 55px;

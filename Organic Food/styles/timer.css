@@ -1,0 +1,40 @@
+#timer{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    background-color:white;
+    padding: 100px 20px;
+}
+
+.timer-title{
+    font-size: 86px;
+    margin-bottom: 30px;
+    font-weight: 300;
+    color:var(--primary-color);
+}
+
+.timer-info{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    gap: 10px;
+}
+
+.timer-info h3{
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.timer-info button{
+    display: flex;
+    align-items:center;
+    gap: 10px;
+    font-size: 18px;
+    font-weight: 300;
+    color:white;
+    padding: 12px 26px;
+    border:none;
+    background-color:var(--primary-color);
+    border-radius: 10px;
+    cursor: pointer;
+}
