@@ -45,3 +45,22 @@ h1,h2,h3,h4,h5,h6,p{
     font-size: 16px;
     font-weight: 500;
 }
+
+.primary-btn{
+    font-size: 18px;
+    font-weight: 300;
+    color:white;
+    border:none;
+    background-color:var(--primary-color);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.secondary-btn{
+    color:var(--primary-color);
+    border: 1px solid var(--primary-color);
+    padding: 10px 25px;
+    border-radius: 10px;
+    background-color:rgba(255, 255, 255, 0);
+    cursor: pointer;
+}

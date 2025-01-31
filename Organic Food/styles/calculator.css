@@ -1,0 +1,87 @@
+#calculator{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin: 100px 0px;
+}
+
+#calculator h1{
+    font-weight: 300;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.buttons-gender-group{
+    display: flex;
+    flex-direction: row;
+    gap:0px;
+    margin-bottom: 30px;
+}
+
+.gender-button{
+    font-size: 24px;
+    padding: 14px 25px;
+    color:var(--primary-color);
+    border: 1px solid var(--primary-color);
+    padding: 10px 25px;
+    background-color:rgba(255, 255, 255, 0);
+    cursor: pointer;
+}
+
+.buttons-gender-group .left-btn{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.buttons-gender-group .right-btn{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius:10px;
+}
+
+.selected-btn{
+    font-weight: 300;
+    color:white;
+    border:none;
+    background-color:var(--primary-color);
+    cursor: pointer;
+}
+
+
+/****************************************/
+
+.calories-input-group{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 40px;
+}
+
+.calories-input{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.calories-input label{
+    font-size: 22px;
+}
+
+.calories-input input{
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid var(--primary-color);
+}
+
+/****************************************/
+
+.result-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.result-block h2{
+    font-size: 32px;
+    font-weight: 300;
+}

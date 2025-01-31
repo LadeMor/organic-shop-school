@@ -31,10 +31,5 @@
     gap: 10px;
     font-size: 18px;
     font-weight: 300;
-    color:white;
     padding: 12px 26px;
-    border:none;
-    background-color:var(--primary-color);
-    border-radius: 10px;
-    cursor: pointer;
 }

@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="styles/recipes.css">
     <link rel="stylesheet" href="styles/footer.css">
     <link rel="stylesheet" href="styles/timer.css">
+    <link rel="stylesheet" href="styles/calculator.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -65,7 +66,7 @@
             <h1 class="products__title">OUR <span class="products__title-word">PRODUCTS</span></h1>
             <div class="product-list"></div>
             <div class="shop-products-button">
-                <button>
+                <button class="primary-btn">
                     <p>Shop all products</p>
                     <img src="assets/icons/white_arrow_right.png" alt="White arrow">
                 </button>
@@ -79,7 +80,7 @@
                 ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae<br/>
                 dicta sunt explicabo.pu pu pu Nemo enim ipsam voluptatem quia voluptas
             </p>
-            <button class="about-text-button">Find out more</button>
+            <button class="about-text-button primary-btn">Find out more</button>
         </section>
         <section id="blog">
             <div class="section-title">
@@ -106,13 +107,14 @@
             <h1 class="timer-title">09:23:06</h1>
            <div class="timer-info">
                 <h3>Get you discound!</h3>
-                <button>Learn more</button>
+                <button class="primary-btn">Learn more</button>
            </div>
         </section>
         <section id="calculator">
-            <div class="buttons-gender-selector">
-                <button>Man</button>
-                <button>Woman</button>
+            <h1>Calculate your daily amount of calories</h1>
+            <div class="buttons-gender-group">
+                <button class="gender-button left-btn selected-btn">Man</button>
+                <button class="gender-button right-btn">Woman</button>
             </div>
             <div class="calories-input-group">
                 <div class="calories-input">

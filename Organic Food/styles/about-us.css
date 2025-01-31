@@ -28,9 +28,5 @@
 .about-text-button{
     font-size: 18px;
     font-weight: 500;
-    color:white;
-    background-color: var(--primary-color);
-    border-radius: 10px;
-    border: none;
     padding: 12px 27px;
 }

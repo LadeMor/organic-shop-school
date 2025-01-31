@@ -42,7 +42,7 @@ productList.forEach(product => {
                                     <b>${product.productName},</b> ${product.volume}ml
                                 </p>
                                 <p class="product-item-price">${product.price} &euro;</p>
-                                <button class="product-item-button">
+                                <button class="product-item-button secondary-btn">
                                     <img src="assets/icons/bag-primary.png" alt="Bag"/>
                                     <p>Add to cart</p>
                                 </button>
